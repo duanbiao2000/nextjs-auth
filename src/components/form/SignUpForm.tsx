@@ -64,7 +64,7 @@ const SignUpForm = () => {
             )}
           />
           <FormField
-            control={form.control}
+            control={form.control} // 将表单控制权移交给React Hook Form库，以便管理和验证表单字段
             name='email'
             render={({ field }) => (
               <FormItem>
